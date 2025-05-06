@@ -1,0 +1,433 @@
+:root{
+    --header-lightblue-: #94CFFF;
+    --header-white-: #FFF;
+    --header-blue-: #26C6EA;
+    --expression-blue-: #0A3853;
+    --expression-black-: #000;
+    --navi-black-: #141414;
+    --header-button-: #0B0E66;
+}
+
+.container {
+    width: 1056px;
+    margin: 0 auto;
+    padding: 0 12px;
+    /* outline: 1px solid red; */
+}
+
+.header{
+    /* background: url(../imeges/dragon.jpg) lightgray 0px -208.593px / 100% 500.681% no-repeat; */
+    background-image: linear-gradient(rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../imeges/dragon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 3px solid var(--header-white-);
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+
+.header-box{
+    display: flex;
+    align-items: center;
+}
+
+.header-list{
+    display: flex;
+    margin-left: 184px;
+    gap: 38px;
+    margin-right: 188px;
+}
+
+.header-listt {
+    display: flex;
+    margin-left: 168px;
+    gap: 38px;
+    margin-right: 170px;
+}
+
+.header-link{
+    color: var(--header-white-);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.header-list .header-item:first-child .header-link{
+    color: var(--header-lightblue-);
+}
+
+.header-listt .header-item:first-child .header-link {
+    color: var(--header-lightblue-);
+}
+
+.header-link:hover{
+    color: var(--header-lightblue-);
+}
+
+.header-button{
+    margin-right: 20px;
+    width: 141px;
+    height: 41.694px;
+    background-color: var(--header-button-);
+    border-radius: 40px 0 40px 0;
+    color: var(--header-blue-);
+    border: 3px solid var(--header-blue-);
+    /* text-align: justify; */
+    font-family: HeadlandOne;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header-lenguage{
+    align-items: center;
+    color: var(--header-white-);
+    text-align: center;
+    font-family: "Hammersmith One";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero{
+    background-image: url(../imeges/hero-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 180px;
+    padding-bottom: 179px;
+}
+
+.hero-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-text{
+    color: var(--header-white-);
+    width: 300px;
+    height: 100px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-img{
+    margin-left: 53px;
+}
+
+.conteiner-box{
+    display: flex;
+    align-items: center;
+}
+
+.hero-list{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: end;
+}
+
+.hero-button{
+    color: var(--header-blue-);
+    background-color: var(--header-button-);
+    padding: 25px 75px;
+    margin-top: 42px;
+    border: 3px solid var(--header-blue-);
+    border-radius: 40px 0 40px 0;
+    text-align: center;
+    font-family: Headland One;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-buttonn {
+    color: var(--header-blue-);
+    background-color: var(--header-button-);
+    padding: 10px 31px;
+    width: 260px;
+    margin-top: 42px;
+    border: 3px solid var(--header-blue-);
+    border-radius: 40px 0 40px 0;
+    text-align: center;
+    font-family: Headland One;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.expression{
+    padding: 75px 0 10px 0;
+    text-align: center;
+}
+
+.blockquote-expression{
+    color: var(--expression-blue-);
+    text-align: justify;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.cite-expression{
+    color: var(--expression-black-);
+    text-align: justify;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    margin: 16px 0 8px 0;
+    
+}
+
+.expression-img{
+    margin: 0 auto;
+}
+
+.trailer{
+    background-image: url(../imeges/trailer-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.trailer{
+    padding: 330px 0;
+    text-align: center;
+}
+
+.trailer-button{
+    color: var(--header-blue-);
+    text-align: justify;
+    font-family: HeadlandOne;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    padding: 25px 18px;
+    border-radius: 45px 0px;
+    border: 3px solid var(--header-blue-);
+    background-color: var(--header-button-);
+}
+
+.second{
+    padding: 75px 0 10px 0;
+    text-align: center;
+}
+
+.second-blockquote{
+    color: var(--navi-black-);
+    text-align: justify;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.second-cite{
+    color: var(--expression-black-);
+    text-align: justify;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    margin: 16px 0 8px 0;
+}
+
+.second-img{
+    margin: auto;
+}
+
+.navi{
+    background-image: url(../imeges/navi-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navi-title{
+    color: var(--navi-black-);
+    text-align: center;
+    font-family: HeadlandOne;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* margin-left: 267px; */
+    margin-bottom: 45px;
+}
+
+.navi-titlee{
+    color: var(--navi-black-);
+    text-align: justify;
+    font-family: HeadlandOne;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* margin-left: 373px; */
+    /* margin-bottom: 45px; */
+}
+
+.navi{
+    padding: 58px 0;
+}
+
+.navi-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+}
+
+.navi-item{
+    background: rgba(255, 255, 255, 0.70);
+    /* width: 320px;
+    height: 240px; */
+    padding: 36px 0 36px 0;
+}
+
+.navi-text{
+    color: var(--navi-black-);
+    text-align: justify;
+    font-family: HeadlandOne;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.navi-img{
+    margin-left: 84px;
+    margin-right: 84px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.third{
+    padding: 75px 0 10px 0;
+}
+
+.third-blockquote{
+    color: var(--navi-black-);
+    text-align: justify;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.third-cite{
+    color: var(--expression-black-);
+    text-align: justify;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    margin: 16px 0 8px 0;
+}
+
+.third-img{
+    margin: auto;
+}
+
+.footer{
+    background-image: linear-gradient(rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../imeges/dragon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 35px 0;
+}
+
+.conteiner-footer{
+    display: flex;
+    gap: 77px;
+    align-items: center;
+    
+}
+
+.footer-logo{
+    display: flex;
+    align-items: center;
+}
+
+.footer-div{
+    background-color: var(--header-white-);
+    width: 2px;
+    height: 153px;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-item{
+    width: 689px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-text{
+    color: var(--header-white-);
+    width: 182px;
+    text-align: justify;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-list .footer-item:first-child .footer-text{
+    width: 107px;
+}
+
+.text-div {
+    width: 194px;
+    height: 0;
+    border-bottom: 2px dashed var(--header-white-);
+    margin: 0 20px;
+}
+
+.footer-list .footer-item:first-child .text-div{
+    width: 269px;
+}
+
+.footer-link{
+    color: var(--header-white-);
+    text-align: justify;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-textt{
+    display: flex;
+    justify-content: center;
+    color: var(--header-white-);
+    text-align: justify;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
