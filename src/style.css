@@ -1,0 +1,294 @@
+:root {
+    --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-accent: 'Papyrus', fantasy;
+
+    --color-primary: #0c1c26;
+    --color-secondary: #1a3a4d;
+    --color-accent: #94CFFF;
+    --color-light: #ffffff;
+    --color-muted: #cccccc;
+    --color-hover: #007e94;
+}
+
+header {
+    background: url(./img/header.png);
+    background-size: cover;
+    width: auto;
+    height: 150;
+}
+
+.header {
+    background-color: hsla(206, 39%, 27%, 87%);
+    padding-top: 39px;
+    padding-bottom: 39px;
+    margin-bottom: 3px;
+}
+
+.header-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logotip {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: start;
+    margin-right: 184px;
+}
+
+.login-btn {
+    margin-right: 49px;
+    color: #26C6EA;
+    text-align: justify;
+    font-family: 'HeadlandOne', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: solid 2px #26C7EA;
+    background-color: #0B0E66;
+    padding: 9px 37px 9px 37px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+.header-controls-eng {
+    color: var(--color-light);
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    color: var(--color-light);
+    margin-right: 228px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.nav-links :hover {
+    color: var(--color-accent);
+    transform: color;
+    transition: 250ms;
+}
+
+label {
+    color: #ffffff00;
+}
+
+.swiper {
+    appearance: none;
+    width: 36px;
+    height: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    position: relative;
+}
+
+.swiper::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+
+.swiper:checked::before {
+    left: 19px;
+}
+
+.hero {
+    background-image: url(./img/men.png);
+    background-size: cover;
+    width: auto;
+    height: 740px;
+}
+
+.translation-block {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 298;
+    height: 96;
+    top: 330px;
+    left: 204px;
+    color: #FFFFFF;
+}
+
+.button {
+    margin-right: 49px;
+    color: #26C6EA;
+    text-align: justify;
+    font-family: 'HeadlandOne', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: solid 2px #26C7EA;
+    background-color: #0B0E66;
+    padding: 9px 37px 9px 37px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-size: cover;
+}
+
+.hero-button {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 240px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 30px;
+    margin-left: 830px;
+}
+
+.hero-li {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    align-content: center;
+}
+
+.geyk,
+.neyr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: #0A3853;
+    width: 1440;
+    height: 350;
+    top: 890px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: justify;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.fenix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.join-clan {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 20px;
+    background-size: cover;
+}
+
+.gorl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-image: url(./img/gorl.png);
+    background-size: cover;
+    width: auto;
+    height: 741px;
+}
+
+.button-gorl {
+    margin-right: 49px;
+    color: #26C6EA;
+    text-align: justify;
+    font-family: 'HeadlandOne', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: solid 2px #26C7EA;
+    background-color: #0B0E66;
+    padding: 9px 37px 9px 37px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+.mova-h2 {
+    width: 499;
+    height: 40;
+    top: 2389px;
+    left: 471px;
+    font-family: HeadlandOne;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: justify;
+
+}
+
+.phrase {
+    width: 499;
+    height: 40;
+    top: 2389px;
+    left: 471px;
+    font-family: HeadlandOne;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: justify;
+
+}
+
+.mova {
+    background-image: url(./img/pruroda.png);
+    background-size: cover;
+    width: auto;
+    height: 704px;
+}
+
+.footer-contact {
+    color: #ffffff;
+}
+
+footer {
+    background-image: url(./img/footer.png);
+    background-size: cover;
+    width: auto;
+    height: 223;
+}
+
+.footer {
+    background-color: hsla(206, 39%, 27%, 87%);
+    padding-top: 39px;
+    padding-bottom: 39px;
+    margin-bottom: 3px;
+}
